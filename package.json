@@ -1,0 +1,9 @@
+{
+  "name": "air-shared",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "sync:wearable": "node ../../tools/sync-wearable-input.mjs"
+  }
+}
